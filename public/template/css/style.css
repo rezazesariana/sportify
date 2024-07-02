@@ -189,6 +189,11 @@ img {
   display: inline;
   font-size: 14px; }
 
+.star-empty::before {
+  content: "\f005";
+  color: #C0C0C0; /* Grey color for empty stars */
+}
+
 .small, small {
   font-size: 60%; }
 
@@ -2626,7 +2631,8 @@ nav.navbar.navbar-default.navbar-sticky-in .logo-black {
       transition: all ease-in-out 0.5s; }
     .trending .trend-item .trend-image img {
       transition: all ease-in-out 0.5s;
-      width: 100%; }
+      width: 100%;
+      object-fit: cover; }
     .trending .trend-item .trend-image .trend-tags {
       position: absolute;
       top: 20px;
