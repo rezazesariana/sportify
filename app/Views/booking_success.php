@@ -28,53 +28,51 @@
                             <i class="fa fa-check"></i>
                             <div class="title-content ml-3">
                                 <h3 class="mb-0 white">Thank You. Your booking order is confirmed now.</h3>
-                                <p class="mb-0 white">A confirmation email has been sent to your provided email address.</p>
                             </div>
                         </div>
                         <div class="travellers-info mb-4">
-                            <h4>Traveler Information</h4>
+                            <h4>Booking Information</h4>
                             <table>
                                 <tr>
                                     <td>Booking Number</td>
-                                    <td>5784-BD245</td>
+                                    <td><?= $booking['booking_id'] ?></td>
                                 </tr>
                                 <tr>
-                                    <td>First Name</td>
-                                    <td>Jessica</td>
+                                    <td>Tanggal Booking</td>
+                                    <td><?= $booking['tanggal'] ?></td>
                                 </tr>
                                 <tr>
-                                    <td>Last Name</td>
-                                    <td>Brown</td>
+                                    <td>Field</td>
+                                    <td><?= $field['nama'] ?></td>
+                                </tr>
+                                <tr>
+                                    <td>Waktu</td>
+                                    <td><?= $booking['waktu_awal'] ?></td>
+                                </tr>
+                                <tr>
+                                    <td>Durasi</td>
+                                    <td><?= $booking['durasi'] ?> <?= $booking['durasi'] > 1 ? 'Hours' : 'Hour' ?></td>
+                                </tr>
+                                <tr>
+                                    <td>User Name</td>
+                                    <td><?= $user['nama'] ?></td>
                                 </tr>
                                 <tr>
                                     <td>Email Address</td>
-                                    <td>info#jessica.com</td>
+                                    <td><?= $user['email'] ?></td>
                                 </tr>
                                 <tr>
-                                    <td>Street Address and number</td>
-                                    <td>353 Third floor Avenue</td>
+                                    <td>Payment Method</td>
+                                    <td><?= $payment_method['nama_bank'] ?></td>
                                 </tr>
                                 <tr>
-                                    <td>Town/City</td>
-                                    <td>Paris</td>
-                                </tr>
-                                <tr>
-                                    <td>ZIP Code</td>
-                                    <td>75800-875</td>
-                                </tr>
-                                <tr>
-                                    <td>Country</td>
-                                    <td>France</td>
+                                    <td>Total</td>
+                                    <td><?= format_rupiah($payment['amount']) ?></td>
                                 </tr>
                             </table>
                         </div>
                         <div class="booking-border mb-4 bg-lgrey p-4">
-                            <h4 class="border-b pb-2 mb-2">Payment</h4>
-                            <p>This is the third time I've used Travelo Website and telling you the truth their services are always reliable and it ony takes few minutes to plan and finalize.</p>
-                            <a href="#">Payment is made by Credit Card via Paypal</a>
-                        </div>
-                        <div class="booking-border mb-4 bg-lgrey p-4">
-                            <h4 class="border-b pb-2 mb-2">View Booking Details</h4>
+                            <h4 class="border-b pb-2 mb-2">View Booking List</h4>
                             <p>This is the third time I've used Travelo Website and telling you the truth their services are always reliable and it ony takes few minutes to plan and finalize.</p>
                             <a href="#">https://www.travel.com/booking-details</a>
                         </div>

@@ -99,11 +99,11 @@
 <!-- why us ends -->
 
 <!-- Fav destination Starts -->
-<section class="trending destination pb-6 pt-9"  style="background-image: url(images/bg/bg4.jpg);">
+<section class="trending destination pb-6 pt-9 bg-grey">
     <div class="container">
         <div class="section-title section-title-w text-center mb-5 pb-2 w-50 mx-auto">
-            <h2 class="m-0 white">Find Your <strong>Favourite Destination</strong></h2>
-            <p class="mb-0 white">Travel has helped us to understand the meaning of life and it has helped us become better people. Each time we travel, we see the world with new eyes.</p>
+            <h2 class="m-0">Find Your <strong>Favourite Destination</strong></h2>
+            <p class="mb-0">Travel has helped us to understand the meaning of life and it has helped us become better people. Each time we travel, we see the world with new eyes.</p>
         </div>  
         <div class="trend-box">
             <div class="price-navtab text-center mb-4">
@@ -148,7 +148,7 @@
                                                     </div>
                                                     <span class="ml-2"><?= $field['total_reviews'] ?> <?= $field['total_reviews'] > 1 ? 'Reviews' : 'Review' ?></span>
                                                 </div>
-                                                <h4><a href="/item-detail"><?= $field['nama'] ?></a></h4>
+                                                <h4><a href="/shop/<?= $field['field_id'] ?>"><?= $field['nama'] ?></a></h4>
                                                 <p class="mb-0"><i class="fa fa-map-marker mr-1 ml-3"></i> <?= $field['nama'] ?></p>
                                             </div>
                                             <div class="trend-last-main">
@@ -165,12 +165,11 @@
             </div>
         </div>    
     </div>
-    <div class="dot-overlay"></div>
 </section>
 <!-- Fav destination Ends -->
 
 <!-- testomonial start -->
-<section class="testimonial pb-10 pt-9" style="background-image: url(images/bg/bg2.jpg);">
+<section class="testimonial pb-10 pt-9" style="background-image: url(https://files.oaiusercontent.com/file-b1f5Nl7zqBWVhgBTBrWKY4oS?se=2024-07-05T14%3A38%3A36Z&sp=r&sv=2023-11-03&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3Dec768d36-e296-4e95-a372-d4ac8863c525.webp&sig=X87TgwIZRlrW8SP8ELyJmyMc3wyMBsu%2B6hDcAuFPlu4%3D);">
     <div class="container">
         <div class="section-title text-center mb-5 pb-2 w-50 mx-auto">
             <h2 class="m-0 white">What <span>People Say About Us</span></h2>

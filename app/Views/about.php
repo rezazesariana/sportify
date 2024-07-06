@@ -243,35 +243,27 @@
     <div class="container">
         <div class="counter text-center">
             <div class="row">
-                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="col-lg-4 col-md-4 col-sm-12 mb-4">
                     <div class="counter-item bg-lgrey">
                         <i class="fa fa-users white bg-navy mb-1"></i>
-                        <h3 class="value mb-0 navy">100</h3>
+                        <h3 class="value mb-0 navy"><?= $totalUsers ?></h3>
                         <h4 class="m-0">Happy Customers</h4>
                     </div>    
                 </div>
 
-                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="col-lg-4 col-md-4 col-sm-12 mb-4">
                     <div class="counter-item bg-lgrey">
                         <i class="fa fa-plane mb-1 white bg-navy"></i>
-                        <h3 class="value mb-0 navy">50</h3>
-                        <h4 class="m-0">Amazing Tours </h4>
+                        <h3 class="value mb-0 navy"><?= $totalBookings ?></h3>
+                        <h4 class="m-0">Bookings</h4>
                     </div>    
                 </div>
 
-                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="col-lg-4 col-md-4 col-sm-12 mb-4">
                     <div class="counter-item bg-lgrey">
                         <i class="fa fa-chart-bar  white bg-navy mb-1"></i>
-                        <h3 class="value mb-0 navy">3472</h3>
-                        <h4 class="m-0">In Business</h4>
-                    </div>    
-                </div>
-
-                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                    <div class="counter-item bg-lgrey">
-                        <i class="fa fa-support  white bg-navy mb-1"></i>
-                        <h3 class="value mb-0 navy">523</h3>
-                        <h4 class="m-0">Support Cases </h4>
+                        <h3 class="value mb-0 navy"><?= $totalFields ?></h3>
+                        <h4 class="m-0">Fields</h4>
                     </div>    
                 </div>
 
@@ -300,133 +292,3 @@
     </div>   
 </div>
 <!-- content-line ends -->
-
-<!-- testomonial start -->
-<section class="testimonial pb-6">
-    <div class="container">
-        <div class="section-title text-center mb-5 pb-2 w-50 mx-auto">
-            <h2 class="m-0">What <span>People Say About Us</span></h2>
-            <p class="mb-0">Travel has helped us to understand the meaning of life and it has helped us become better people. Each time we travel, we see the world with new eyes.</p>
-        </div> 
-        <div class="row review-slider">
-            <div class="col-sm-4 item">
-                <div class="testimonial-item1 text-center">
-                    <div class="details">
-                        <p class="m-0">Lorem Ipsum is simply dummy text of the printing andypesetting industry. Lorem ipsum a simple Lorem Ipsum has been the industry's standard dummy hic et quidem. Dignissimos maxime velit unde inventore quasi vero dolorem.</p>
-                    </div>
-                    <div class="author-info mt-2">
-                        <a href="#"><img src="<?= base_url('template/images/testimonial/img1.jpg') ?>" alt=""></a>
-                        <div class="author-title">
-                            <h4 class="m-0 pink">Jared Erondu</h4>
-                            <span>Supervisor</span>
-                        </div>
-                    </div>
-                    <i class="fa fa-quote-left mb-2"></i>
-                </div>
-            </div>
-            <div class="col-sm-4 item">
-                <div class="testimonial-item1 text-center">
-                    <div class="details">
-                        <p class="m-0">Lorem Ipsum is simply dummy text of the printing andypesetting industry. Lorem ipsum a simple Lorem  Ipsum has been the industry's standard dummy hic et quidem. Dignissimos maxime velit unde inventore quasi vero dolorem.</p>
-                    </div>
-                    <div class="author-info mt-2">
-                        <a href="#"><img src="<?= base_url('template/images/testimonial/img2.jpg') ?>" alt=""></a>
-                        <div class="author-title">
-                            <h4 class="m-0 pink">Cadic Vegeta</h4>
-                            <span>Sr. Chef</span>
-                        </div>
-                    </div>
-                    <i class="fa fa-quote-left mb-2"></i>
-                </div>
-            </div>
-            <div class="col-sm-4 item">
-                <div class="testimonial-item1 text-center">
-                    <div class="details">
-                        <p class="m-0">Lorem Ipsum is simply dummy text of the printing andypesetting industry. Lorem ipsum a simple Lorem Ipsum has been the industry's standard dummy hic et quidem. Dignissimos maxime velit unde inventore quasi vero dolorem.</p>
-                    </div>
-                    <div class="author-info mt-2">
-                        <a href="#"><img src="<?= base_url('template/images/testimonial/img3.jpg') ?>" alt=""></a>
-                        <div class="author-title">
-                            <h4 class="m-0 pink">Jonathan Beri</h4>
-                            <span>Manager</span>
-                        </div>
-                    </div>
-                    <i class="fa fa-quote-left mb-2"></i>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- testimonial ends --> 
-
-<!-- client start -->
-<div class="partners bg-grey pt-4 pb-4">
-    <div class="container-fluid">
-        <div class="row attract-slider">
-            <div class="col-sm-2">
-                <div class="client-logo item">
-                <a href="#">
-                    <img src="<?= base_url('template/images/clients/logo-01.png') ?>" alt="" />
-                </a>
-                </div>
-            </div>
-            <div class="col-sm-2">
-                <div class="client-logo item">
-                    <a href="#">
-                        <img src="<?= base_url('template/images/clients/logo-02.png') ?>" alt="" />
-                    </a>
-                </div>
-            </div>
-            <div class="col-sm-2">
-                <div class="client-logo item">
-                    <a href="#">
-                        <img src="<?= base_url('template/images/clients/logo-03.png') ?>" alt="" />
-                    </a>
-                </div>
-            </div>
-            <div class="col-sm-2">
-                <div class="client-logo item">
-                    <a href="#">
-                        <img src="<?= base_url('template/images/clients/logo-04.png') ?>" alt="" />
-                    </a>
-                </div>
-            </div>
-            <div class="col-sm-2">
-                <div class="client-logo item">
-                    <a href="#">
-                        <img src="<?= base_url('template/images/clients/logo-02.png') ?>" alt="" />
-                    </a>
-                </div>
-            </div>
-            <div class="col-sm-2">
-                <div class="client-logo item">
-                    <a href="#">
-                        <img src="<?= base_url('template/images/clients/logo-03.png') ?>" alt="" />
-                    </a>
-                </div>
-            </div>
-                <div class="col-sm-2">
-                    <div class="client-logo item">
-                        <a href="#">
-                            <img src="<?= base_url('template/images/clients/logo-04.png') ?>" alt="" />
-                        </a>
-                    </div>
-                </div>
-                <div class="col-sm-2">
-                    <div class="client-logo item">
-                        <a href="#">
-                            <img src="<?= base_url('template/images/clients/logo-01.png') ?>" alt="" />
-                        </a>
-                    </div>
-                </div>
-                <div class="col-sm-2">
-                    <div class="client-logo item">
-                        <a href="#">
-                            <img src="<?= base_url('template/images/clients/logo-02.png') ?>" alt="" />
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- client ends -->

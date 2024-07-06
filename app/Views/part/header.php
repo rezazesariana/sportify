@@ -41,8 +41,8 @@
                         <!-- Brand and toggle get grouped for better mobile display -->
                         <div class="navbar-header">
                             <a class="navbar-brand" href="index.html">
-                                <img src="<?= base_url('template/images/logo-white.png') ?>" alt="image">
-                                <img src="<?= base_url('template/images/logo.png') ?>" alt="image">
+                                <img src="<?= base_url('assets/logo-sportify-white.png') ?>" alt="image" height="100px">
+                                <img src="<?= base_url('assets/logo-sportify.png') ?>" alt="image" height="100px">
                             </a>
                         </div>
                         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -56,8 +56,12 @@
                         </div><!-- /.navbar-collapse -->   
 
                         <div class="register-login">
-                            <a href="/register" class="mr-2"><i class="icon-user mr-1"></i> Register</a>
-                            <a href="#" data-toggle="modal" data-target="#login"><i class="icon-login mr-1"></i> Login</a>
+                            <?php if (session()->get('logged_in')): ?>
+                                <a href="/logout" class="mr-2"><i class="icon-logout mr-1"></i> Logout</a>
+                            <?php else: ?>
+                                <a href="/register" class="mr-2"><i class="icon-user mr-1"></i> Register</a>
+                                <a href="/login"><i class="icon-login mr-1"></i> Login</a>
+                            <?php endif; ?>
                         </div>
 
                         <div id="slicknav-mobile"></div>
@@ -68,42 +72,3 @@
         <!-- Navigation Bar Ends -->
     </header>
     <!-- header ends -->
-
-<!-- login Modal -->
-<div class="modal fade" id="login" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-content">
-            <div class="modal-header bordernone p-0">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body p-0">
-                <div class="login-content p-4 text-center">
-                    <div class="login-title section-border">
-                        <h3 class="pink">Login</h3>                    
-                    </div>
-                    <div class="login-form">
-                        <form>
-                            <div class="form-group">
-                                <input type="email" placeholder="Enter email address">
-                            </div>
-                            <div class="form-group">
-                                <input type="password" placeholder="Enter password">
-                            </div>
-                        </form>
-                        <div class="form-btn">
-                            <a href="#" class="nir-btn">LOGIN</a>
-                        </div>
-                        <div class="form-group mb-0 form-checkbox mt-3">
-                            <input type="checkbox"> Remember Me | <a href="#" class="">Forgot password?</a>
-                        </div>
-                    </div>
-                    <div class="sign-up mt-3">
-                        <p class="m-0">Do not have an account? <a href="login.html" class="pink">Sign Up</a></p>
-                    </div>                
-                </div>
-            </div>
-        </div>
-    </div>
-</div>

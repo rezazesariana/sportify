@@ -1,11 +1,11 @@
 <!-- footer starts -->
-<footer class="pt-10" style="background-image:url(images/bg/bg3.jpg);">
+<footer class="pt-10" >
     <div class="footer-upper pb-5">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 mb-4">
                     <div class="footer-about">
-                        <img src="<?= base_url('template/images/logo-white.png') ?>" alt="">
+                        <img src="<?= base_url('assets/logo-sportify-white.png') ?>" alt="" height="100px">
                         <p class="mt-3 mb-3">
                             In ut odio libero, at vulputate urna. Nulla tristique mi a massa convallis cursus. Nulla eu mi magna
                         </p>

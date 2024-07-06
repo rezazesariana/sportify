@@ -25,224 +25,49 @@
                 <div class="payment-book">
                     <div class="booking-box">
                         <div class="customer-information mb-2">
-                            <h3 class="border-b pb-2 mb-2">Traveller Information</h3>
-                            <form class="mb-2">
-                                <h5>Travller 1</h5>
-                                <div class="row">
-                                    <div class="col-md-2">
-                                        <div class="form-group">
-                                            <label>Title</label>
-                                            <div class="input-box">
-                                                <select class="niceSelect">
-                                                    <option value="0">Select</option>
-                                                    <option value="1">Mr.</option>
-                                                    <option value="2">Mrs.</option>
-                                                </select>
-                                            </div>                            
-                                        </div>
-                                    </div>
-                                    <div class="col-md-5">
-                                        <div class="form-group">
-                                            <label>First Name</label>
-                                            <input type="text" placeholder="First Name">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-5">
-                                        <div class="form-group">
-                                            <label>Last Name</label>
-                                            <input type="text" placeholder="Last Name">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 col-sm-6">
-                                        <div class="form-group">
-                                            <label>Gender</label>
-                                            <div class="input-box">
-                                                <select class="niceSelect">
-                                                    <option value="0">Select Gender</option>
-                                                    <option value="1">Male</option>
-                                                    <option value="2">Female</option>
-                                                </select>
-                                            </div>                            
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 col-sm-6">
-                                        <div class="form-group">
-                                            <label>DOB</label>
-                                            <div class="input-box">
-                                                <input id="date-range0" type="text" placeholder="YY-MM-DD">
-                                            </div> 
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 col-sm-12">
-                                        <div class="form-group">
-                                            <label>Nationality</label>
-                                            <div class="input-box">
-                                                <select class="niceSelect">
-                                                    <option value="0">Select Your Nationality</option>
-                                                    <option value="1">Malaysia</option>
-                                                    <option value="2">Singapore</option>
-                                                    <option value="3">Japan</option>
-                                                    <option value="4">Thailand</option>
-                                                </select>
-                                            </div>                            
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <label>Email</label>
-                                            <input type="email" placeholder="Email Address">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <label>Phone</label>
-                                            <input type="text" placeholder="Phone No.">
-                                        </div>
-                                    </div>
-                                </div>
-                            </form>
-                            <form>
-                                <h5>Travller 2</h5>
-                                <div class="row">
-                                    <div class="col-md-2">
-                                        <div class="form-group">
-                                            <label>Title</label>
-                                            <div class="input-box">
-                                                <select class="niceSelect">
-                                                    <option value="0">Select</option>
-                                                    <option value="1">Mr.</option>
-                                                    <option value="2">Mrs.</option>
-                                                </select>
-                                            </div>                            
-                                        </div>
-                                    </div>
-                                    <div class="col-md-5">
-                                        <div class="form-group">
-                                            <label>First Name</label>
-                                            <input type="text" placeholder="First Name">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-5">
-                                        <div class="form-group">
-                                            <label>Last Name</label>
-                                            <input type="text" placeholder="Last Name">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 col-sm-6">
-                                        <div class="form-group">
-                                            <label>Gender</label>
-                                            <div class="input-box">
-                                                <select class="niceSelect">
-                                                    <option value="0">Select Gender</option>
-                                                    <option value="1">Male</option>
-                                                    <option value="2">Female</option>
-                                                </select>
-                                            </div>                            
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 col-sm-6">
-                                        <div class="form-group">
-                                            <label>DOB</label>
-                                            <div class="input-box">
-                                                <input id="date-range1" type="text" placeholder="YY-MM-DD">
-                                            </div> 
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 col-sm-12">
-                                        <div class="form-group">
-                                            <label>Nationality</label>
-                                            <div class="input-box">
-                                                <select class="niceSelect">
-                                                    <option value="0">Select Your Nationality</option>
-                                                    <option value="1">Malaysia</option>
-                                                    <option value="2">Singapore</option>
-                                                    <option value="3">Japan</option>
-                                                    <option value="4">Thailand</option>
-                                                </select>
-                                            </div>                            
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <label>Email</label>
-                                            <input type="email" placeholder="Email Address">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <label>Phone</label>
-                                            <input type="text" placeholder="Phone No.">
-                                        </div>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                        <div class="customer-information card-information">
                             <h3 class="border-b pb-2 mb-2">Payment Information <small class="font-sm text-muted">/ <i class="fas fa-lock"></i> secure</small></h3>
                             <div class="alert bg-pink p-4 mb-4" role="alert">
-                                <h3 class="white mb-1">Congratulations!!!</h3>
-                                <p class="lead white mb-1">You've got the best price at just <strong class="font-weight-bold">$60.55</strong> per person</p>
-                                <p class="mb-0 white">Prices may go up, so secure your reservation today. </p>
+                                <p class="lead white mb-1">Pilih Salah Satu</p>
                             </div>
-                            <form>
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <h5 class="mb-2">Credit Card</h5>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <label>Card Holder Number</label>
-                                            <input type="text">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <label>Card Number</label>
-                                            <input type="text">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-3">
-                                        <div class="form-group">
-                                            <label>Expiry Month</label>
-                                            <input type="text">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-3">
-                                        <div class="form-group">
-                                            <label>Expiry Year</label>
-                                            <input type="text">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <label>CVC</label>
-                                            <input type="text">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="border-t pt-2 mt-1"></div>
+                            <?php foreach ($payment_methods as $method) : ?>
                                 <div class="row mb-2">
                                     <div class="col-md-12">
-                                        <h5 class="mb-2">Paypal</h5>
+                                        <h5 class="mb-2"><?= $method['nama_bank'] ?></h5>
                                     </div>
                                     <div class="col-md-12">
-                                        <p>To make the payment process secure and complete you will be redirected to Paypal Website .</p>
-                                        <a href="" class="pink">Checkout via Paypal <i class="fa fa-long-arrow-alt-right"></i></a>
+                                        <p>a.n. <?= $method['nama_rekening'] ?></p>
+                                        <p><?= $method['no_rekening'] ?></p>
                                     </div>
                                 </div>
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <div class="form-group">
-                                            <input type="checkbox"> By continuing, you agree to the <a href="#">Terms and Conditions.</a>
+                            <?php endforeach; ?>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <form action="/booking/confirm" method="post">
+                                        <input type="hidden" name="field_id" value="<?= $field['field_id'] ?>">
+                                        <input type="hidden" name="tanggal" value="<?= $tanggal ?>">
+                                        <input type="hidden" name="waktu_awal" value="<?= $waktu_awal ?>">
+                                        <input type="hidden" name="durasi" value="<?= $durasi ?>">
+                                        <input type="hidden" name="amount" value="<?= $total ?>">
+                                        <input type="hidden" name="payment_date" value="<?= date("Y-m-d H:i:s") ?>">
+
+                                        <div class="row">
+                                            <div class="col-3">
+                                                <label for="payment_method">Payment Method:</label>
+                                            </div>
+                                            <div class="col-4">
+                                                <select name="payment_method" id="payment_method">
+                                                    <?php foreach ($payment_methods as $method) : ?>
+                                                        <option value=<?= $method['payment_method_id']?>><?= $method['nama_bank'] ?></option>
+                                                    <?php endforeach; ?>
+                                                </select>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="col-md-12">
-                                        <div class="form-btn">
-                                            <a href="/confirmation" class="nir-btn">CONFIRM BOOKING</a>
-                                        </div>
-                                    </div>
+
+                                        <input type="checkbox"> By continuing, you agree to the <a href="#">Terms and Conditions.</a>
+                                        <button type="submit" class="shop-btn mt-2 nir-btn">CONFIRM BOOKING</button>
+                                    </form>
                                 </div>
-                            </form>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -252,29 +77,37 @@
                 <div class="sidebar-sticky sticky1">
                     <div class="trend-item mb-4">
                         <div class="trend-image">
-                            <img src="<?= base_url('template/images/trending/trending8.jpg') ?>" alt="image">
+                            <img src="<?= $field['main_photo']['link'] ?>" alt="image">
                         </div>
                         <div class="trend-content-main">
                             <div class="trend-content">
                                 <div class="rating-main d-flex align-items-center pb-1">
                                     <div class="rating">
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
+                                    <?php
+                                        $fullStars = floor($field['average_rating']);
+                                        $halfStar = ($field['average_rating'] - $fullStars) >= 0.5 ? 1 : 0;
+                                        $emptyStars = 5 - $fullStars - $halfStar;
+                                        for ($i = 0; $i < $fullStars; $i++) {
+                                            echo '<span class="fa fa-star"></span>';
+                                        }
+                                        if ($halfStar) {
+                                            echo '<span class="fa fa-star-half-alt"></span>';
+                                        }
+                                        for ($i = 0; $i < $emptyStars; $i++) {
+                                            echo '<span class="fa star-empty"></span>';
+                                        }
+                                    ?>
                                     </div>
-                                    <span class="ml-2">38 Reviews</span>
+                                    <span class="ml-2"><?= $field['total_reviews'] ?> <?= $field['total_reviews'] > 1 ? 'Reviews' : 'Review' ?></span>
                                 </div>
-                                <h4><a href="#">Nepal Special Tour</a></h4>
-                                <p class="mb-0 pink"><i class="fa fa-eye mr-1"></i> 852 Visiting Places <i class="fa fa-map-marker mr-1 ml-3"></i> Nepal.</p>
+                                <h4><a href="#"><?= $field['nama'] ?></a></h4>
+                                <p class="mb-0 pink"><i class="fa fa-map-marker mr-1 ml-3"></i><?= $field['lokasi'] ?></p>
                             </div>
                             <div class="trend-last-main">
                                 <p class="mb-0 trend-para">A wonderful little cottage right on the seashore - perfect for exploring.</p>
                                 <div class="trend-last d-flex align-items-center justify-content-between bg-navy">
-                                    <p class="mb-0 white"><i class="fa fa-clock-o" aria-hidden="true"></i> 3 days & 2 night</p>
                                     <div class="trend-price">
-                                        <p class="price white mb-0">From <span>$350.00</span></p>
+                                        <p class="price white mb-0"><span><?= format_rupiah($field['harga']) ?></span></p>
                                     </div>
                                 </div>
                             </div>
@@ -286,34 +119,30 @@
                             <table>
                                 <tbody>
                                     <tr>
+                                        <td>Time Booking</td>
+                                        <td class="pink"><?= $waktu_awal ?></td>
+                                    </tr>
+                                    <tr>
                                         <td> Price</td>
-                                        <td class="pink">$580.00</td>
+                                        <td class="pink"><?= format_rupiah($field['harga']) ?></td>
                                     </tr>
                                     <tr>
-                                        <td>Number of Travellers</td>
-                                        <td class="pink">1</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Infant Price</td>
-                                        <td class="pink">$0.00</td>
+                                        <td>Duration</td>
+                                        <td class="pink"><?= $durasi ?> <?= $durasi > 1 ? 'Hours' : 'Hour' ?></td>
                                     </tr>
                                     <tr>
                                         <td>Subtotal</td>
-                                        <td class="pink">$580.00</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Total</td>
-                                        <td class="pink">$580.00</td>
+                                        <td class="pink"><?= format_rupiah($subtotal) ?></td>
                                     </tr>
                                     <tr>
                                         <td>Tax & fee</td>
-                                        <td class="pink">0</td>
+                                        <td class="pink"><?= format_rupiah($tax) ?></td>
                                     </tr>
                                 </tbody>
                                 <tfoot class="bg-pink">
                                     <tr>
                                         <th class="font-weight-bold white">Amount</th>
-                                        <th class="font-weight-bold white">$580.00</th>
+                                        <th class="font-weight-bold white"><?= format_rupiah($total) ?></th>
                                     </tr>
                                 </tfoot>
                             </table>
