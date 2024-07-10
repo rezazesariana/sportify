@@ -92,9 +92,9 @@
                             <div class="sidebar-module-inner">
                                 <p class="mb-2">Paid was hill sir high 24/7. For him precaution any advantages dissimilar.</p>
                                 <ul class="help-list">
-                                    <li class="border-b pb-1 mb-1"><span class="font-weight-bold">Hotline</span>: +475 15 123 21</li>
-                                    <li class="border-b pb-1 mb-1"><span class="font-weight-bold">Email</span>: support@Yatriiworld.com</li>
-                                    <li><span class="font-weight-bold">Livechat</span>: Yatriiworld (Skype)</li>
+                                    <li class="border-b pb-1 mb-1"><span class="font-weight-bold">Hotline</span>: +62 877-2289-3298</li>
+                                    <li class="border-b pb-1 mb-1"><span class="font-weight-bold">Email</span>: booking@sportify.co.id</li>
+                                    <li><span class="font-weight-bold">Livechat</span>: Sportify (Skype)</li>
                                 </ul>
                             </div>
                         </div>

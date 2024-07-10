@@ -12,6 +12,8 @@ $routes->get('/', 'Home::index');
 
 $routes->get('/shop', 'Shop::index');
 $routes->get('/shop/(:num)', 'Shop::detail/$1');
+$routes->post('/shop/postReview', 'Shop::postReview');
+$routes->get('/shop/fetchBookings', 'Shop::fetchBookings');
 
 $routes->get('/about', 'About::index');
 $routes->get('/contact', 'Contact::index');
@@ -28,6 +30,9 @@ $routes->set404Override(function(){
 
 $routes->get('/register', 'Register::index');
 $routes->post('/register/save', 'Register::save');
+
+$routes->get('/privacy-policy', 'PrivacyPolicy::index');
+$routes->get('/terms-and-conditions', 'TermsConditions::index');
 
 $routes->get('/login', 'Login::index');
 $routes->post('/login/authenticate', 'Login::authenticate');

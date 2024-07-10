@@ -24,25 +24,19 @@
             <div class="row d-flex align-items-center justify-content-between">
                 <div class="col-lg-6 col-sm-12">
                     <div class="about-content">
-                        <h4 class="mb-1 blue font-weight-normal">About Yatriiworld</h4>
-                        <h2>We're truely dedicated to make your travel experience best</h2>
-                        <p class="mb-3">Top Tour Operators and Travel Agency. We offering in total 793 tours and holidays throughout the world. Combined we have received 1532 customer reviews and an average rating of 5 out of 5 stars. <br><br>Travel has helped us to understand the meaning of life and it has helped us become better people. Each time we travel, we see the world with new eyes.</p>
+                        <h4 class="mb-1 blue font-weight-normal">About Sportify</h4>
+                        <h2>Experience seamless field booking with Sportify – where convenience meets efficiency</h2>
+                        <p class="mb-3">Sportify menyediakan berbagai lapangan olahraga berkualitas tinggi untuk kebutuhan Anda, mulai dari futsal, badminton, basket, voli hingga tenis. Dengan fasilitas modern dan lokasi strategis, kami menawarkan pengalaman bermain yang menyenangkan dan nyaman bagi semua kalangan. <br><br>Dapatkan kemudahan dalam pemesanan lapangan melalui platform online kami yang cepat dan praktis. Pilih Sportify untuk menjaga semangat olahraga Anda tetap menyala!</p>
                         <div class="about-imagelist">
                             <ul class="d-flex justify-content-between">
                                 <li class="mr-2">
-                                    <img src="<?= base_url('template/images/destination/destination7.jpg') ?>" alt="">
+                                    <img src="<?= base_url('assets/random_3.jpg') ?>" alt="" height="170px">
                                 </li>
                                 <li class="mr-2">
-                                    <img src="<?= base_url('template/images/destination/destination5.jpg') ?>" alt="">
+                                    <img src="<?= base_url('assets/random_4.jpg') ?>" alt="" height="170px">
                                 </li>
                                 <li class="mr-2">
-                                    <img src="<?= base_url('template/images/destination/destination6.jpg') ?>" alt="">
-                                </li>
-                                <li class="mr-2">
-                                    <img src="<?= base_url('template/images/destination/destination3.jpg') ?>" alt="">
-                                </li>
-                                <li>
-                                    <img src="<?= base_url('template/images/destination/destination4.jpg') ?>" alt="">
+                                    <img src="<?= base_url('assets/random_6.jpg') ?>" alt="" height="170px">
                                 </li>
                             </ul>
                         </div>
@@ -50,7 +44,7 @@
                 </div>
                 <div class="col-lg-6 col-sm-12">
                     <div class="about-image">
-                        <img src="<?= base_url('template/images/destination/destination12.jpg') ?>" alt="">
+                        <img src="<?= base_url('assets/random_5.jpg') ?>" alt="" height="500px">
                     </div>
                 </div>
             </div>
@@ -68,7 +62,7 @@
                 <div class="col-lg-6 col-sm-12">
                     <div class="about-content">
                         <h2 class="">Why Choose Us</h2>
-                        <p class="mb-2">Top Tour Operators and Travel Agency. We offering in total 793 tours and holidays throughout the world. Combined we have received 1532 customer reviews and an average rating of 5 out of 5 stars. <br>Travel has helped us to understand the meaning of life and it has helped us become better people. Each time we travel, we see the world with new eyes.</p>
+                        <p class="mb-2">Sportify platform yang menyediakan solusi lengkap untuk penyewaan lapangan olahraga dengan kemudahan, kejelasan informasi, dan pilihan yang luas. Dengan antarmuka yang intuitif, Anda dapat dengan cepat menemukan dan memesan lapangan sesuai kebutuhan, tanpa ribet. <br>Dengan Sportify, Anda dapat mengoptimalkan pengalaman berolahraga dengan memastikan bahwa setiap sesi latihan atau pertandingan berlangsung lancar dan sesuai dengan rencana.</p>
                         <div class="about-featured mb-0">
                             <ul>
                                 <li>Safety Travel System</li>
@@ -85,70 +79,16 @@
                     <div class="about-image-main">
                         <div class="row">
                             <div class="col-lg-6 col-md-6 mt-4 mb-4">
-                                <img src="<?= base_url('template/images/new-deal/deal3.jpg') ?>" alt="">
+                                <img src="<?= base_url('assets/random_1.jpg') ?>" alt="" height="300px">
                             </div>
                             <div class="col-lg-6 col-md-6">
-                                <img src="<?= base_url('template/images/new-deal/deal5.jpg') ?>" alt="">
+                                <img src="<?= base_url('assets/random_2.jpg') ?>" alt="" height="300px">
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
-        <!-- why us starts -->
-        <div class="why-us pt-4 border-t">
-            <div class="why-us-box">
-                <div class="row">
-                    <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                        <div class="why-us-item text-center bg-lgrey">
-                            <div class="why-us-icon mb-2">
-                                <i class="flaticon-call pink"></i>
-                            </div>
-                            <div class="why-us-content">
-                                <h4><a href="#">Advice & Support</a></h4>
-                                <p class="mb-0">Travel worry free knowing that we're here if you need us, 24 hours a day</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                        <div class="why-us-item text-center bg-lgrey">
-                            <div class="why-us-icon mb-2">
-                                <i class="flaticon-global pink"></i>
-                            </div>
-                            <div class="why-us-content">
-                                <h4><a href="#">Air Ticketing</a></h4>
-                                <p class="mb-0">Travel worry free knowing that we're here if you need us, 24 hours a day</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                        <div class="why-us-item text-center bg-lgrey">
-                            <div class="why-us-icon mb-2">
-                                <i class="flaticon-building pink"></i>
-                            </div>
-                            <div class="why-us-content">
-                                <h4><a href="#">Hotel Services</a></h4>
-                                <p class="mb-0">Travel worry free knowing that we're here if you need us, 24 hours a day</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                        <div class="why-us-item text-center bg-lgrey">
-                            <div class="why-us-icon mb-2">
-                                <i class="flaticon-location-pin pink"></i>
-                            </div>
-                            <div class="why-us-content">
-                                <h4><a href="#">Tour Packages</a></h4>
-                                <p class="mb-0">Travel worry free knowing that we're here if you need us, 24 hours a day</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- why us ends -->
     </div>
 </section>
 <!-- about-us ends -->
@@ -157,15 +97,15 @@
 <section class="our-team pb-4">
     <div class="container">
         <div class="section-title text-center mb-5 pb-2 w-50 mx-auto">
-            <h2 class="m-0">Our <span>Team & Guide</span></h2>
-            <p class="mb-0">Travel has helped us to understand the meaning of life and it has helped us become better people. Each time we travel, we see the world with new eyes.</p>
+            <h2 class="m-0">Our <span>Team</span></h2>
+            <p class="mb-0">Berikut merupakan orang-orang terbaik di balik kesuksesan Sportify</p>
         </div>  
         <div class="team-main">
             <div class="row shop-slider">
                 <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                     <div class="team-list">
                         <div class="team-image">
-                            <img src="<?= base_url('template/images/team/img1.jpg') ?>" alt="team">
+                            <img src="<?= base_url('assets/dini.jpg') ?>" alt="team" height="400px">
                         </div>
                         <div class="team-content1 text-center">
                             <h4 class="mb-0 pink">Salmon Thuir</h4>
@@ -179,7 +119,7 @@
                 <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                     <div class="team-list">
                         <div class="team-image">
-                            <img src="<?= base_url('template/images/team/img2.jpg') ?>" alt="team">
+                            <img src="<?= base_url('assets/reza.jpeg') ?>" alt="team" height="400px">
                         </div>
                         <div class="team-content1 text-center">
                             <h4 class="mb-0 pink">Horke Pels</h4>
@@ -215,19 +155,6 @@
                             <h4 class="mb-0 pink">Nelson Bam</h4>
                             <p class="mb-0">Quality Assurance</p>
                             
-                        </div>
-                        
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                    <div class="team-list">
-                        <div class="team-image">
-                            <img src="<?= base_url('template/images/team/img5.jpg') ?>" alt="team">
-                        </div>
-                        <div class="team-content1 text-center">
-                            <h4 class="mb-0 pink">Cacics Coold</h4>
-                            <p class="mb-0">Asst. Chef</p>
                         </div>
                         
                     </div>
@@ -281,7 +208,7 @@
             <div class="row d-md-flex align-items-center justify-content-between">
                 <div class="col-lg-9 col-md-9">
                     <p class="mb-0 white h4">
-                        It’s Time For a New Adventure! Don’t Wait Any Longer. Contact us!
+                        Choose best on your needs. Don't wait any longer. Contact us!
                     </p>
                 </div>
                 <div class="col-lg-3 col-md-3">

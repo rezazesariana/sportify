@@ -7,9 +7,9 @@
                     <div class="slide-inner">
                         <div class="slide-image" style="background-image:url(https://drive.google.com/thumbnail?id=1l00bCgVHBKjFSpUnO34VK_1kFX7zml6w&sz=w1000)"></div>
                         <div class="swiper-content container">
-                            <h4 class="blue">Amazing Places</h4>
-                            <h1 class="white mb-4">Explore Your Life Travel Where You Want</h1>
-                            <a href="#" class="per-btn">
+                            <h4 class="blue">Amazing Fields</h4>
+                            <h1 class="white mb-4">Where Every Match Begins</h1>
+                            <a href="/shop" class="per-btn">
                                 <span class="white">Discover</span>
                             <i class="fa fa-arrow-right white"></i>
                             </a>
@@ -21,9 +21,9 @@
                     <div class="slide-inner">
                         <div class="slide-image" style="background-image:url(https://drive.google.com/thumbnail?id=1gJqL2cAJpmE3jeXSYztmNBt6HIaHh56q&sz=w1000)"></div>
                         <div class="swiper-content container">
-                            <h4 class="blue">Feel Free To Travel</h4>
-                            <h1 class="white mb-4">Make you Free to <span>travel</span> with us</h1>
-                            <a href="#" class="per-btn">
+                            <h4 class="blue">Feel Free To Score</h4>
+                            <h1 class="white mb-4">Where Passion Meets the Field.</h1>
+                            <a href="/shop" class="per-btn">
                                 <span class="white">Discover</span>
                                 <i class="fa fa-arrow-right white"></i>
                             </a>
@@ -35,9 +35,9 @@
                     <div class="slide-inner">
                         <div class="slide-image" style="background-image:url(https://drive.google.com/thumbnail?id=1wzKmcqg7eVvN6nov-GQHct0RHOfZtdcw)"></div>
                         <div class="swiper-content container">
-                            <h4 class="blue">Trip For Your Kids</h4>
-                            <h1 class="white mb-4"><span>Sensation Ice Trip</span> Is Coming For Kids</h1>
-                            <a href="#" class="per-btn">
+                            <h4 class="blue">Place For Your Kids</h4>
+                            <h1 class="white mb-4"><span>Step into Your Field of Dreams With Us</h1>
+                            <a href="/shop" class="per-btn">
                                 <span class="white">Discover</span>
                                 <i class="fa fa-arrow-right white"></i>
                             </a>
@@ -65,8 +65,8 @@
                             <i class="flaticon-price pink"></i>
                         </div>
                         <div class="featured-us-content">
-                            <h4 class="mb-1"><a href="#">Competetive Pricing</a></h4>
-                            <p class="mb-0">With 500+ suppliers and the purchasing power of 300 million members</p>
+                            <h4 class="mb-1"><a href="#">Harga Sewa</a></h4>
+                            <p class="mb-0">Harga sewa paling terjangkau di area Bandung</p>
                         </div>
                     </div>
                 </div>
@@ -76,8 +76,8 @@
                             <i class="flaticon-quality pink"></i>
                         </div>
                         <div class="featured-us-content">
-                            <h4 class="mb-1"><a href="#">Award Winning Service</a></h4>
-                            <p class="mb-0">Fabulous Travel worry free knowing that we're here if you need us, 24 hours a day</p>
+                            <h4 class="mb-1"><a href="#">Fasilitas</a></h4>
+                            <p class="mb-0">Fasilitas unggul untuk semua jenis lapangan</p>
                         </div>
                     </div>
                 </div>
@@ -87,8 +87,8 @@
                             <i class="flaticon-global pink"></i>
                         </div>
                         <div class="featured-us-content">
-                            <h4 class="mb-1"><a href="#">Worldwide Coverage</a></h4>
-                            <p class="mb-0">1,200,000 hotels in more than 200 countries and regions & flights to over 5,000 citites.</p>
+                            <h4 class="mb-1"><a href="#">Area</a></h4>
+                            <p class="mb-0">Kawasan olahraga yang  mudah diakses dari pusat kota Bandung</p>
                         </div>
                     </div>
                 </div>
@@ -102,8 +102,8 @@
 <section class="trending destination pb-6 pt-9 bg-grey">
     <div class="container">
         <div class="section-title section-title-w text-center mb-5 pb-2 w-50 mx-auto">
-            <h2 class="m-0">Find Your <strong>Favourite Destination</strong></h2>
-            <p class="mb-0">Travel has helped us to understand the meaning of life and it has helped us become better people. Each time we travel, we see the world with new eyes.</p>
+            <h2 class="m-0">Choose Your <strong>Own Field</strong></h2>
+            <p class="mb-0">Dapatkan fasilitas lapangan yang kumplit dengan harga menarik berdasarkan cabang olahraga pilihanmu!</p>
         </div>  
         <div class="trend-box">
             <div class="price-navtab text-center mb-4">
@@ -173,7 +173,7 @@
     <div class="container">
         <div class="section-title text-center mb-5 pb-2 w-50 mx-auto">
             <h2 class="m-0 white">What <span>People Say About Us</span></h2>
-            <p class="mb-0 white">Travel has helped us to understand the meaning of life and it has helped us become better people. Each time we travel, we see the world with new eyes.</p>
+            <p class="mb-0 white">Pengalaman pengguna yang intuitif dan pilihan lapangan yang beragam memastikan pengguna selalu dapat menemukan tempat yang tepat untuk berolahraga sesuai kebutuhan. Berikut ulasan dari para pengguna Sportify</p>
         </div> 
         <div class="row review-slider1">
             <?php foreach ($all_reviews as $review) : ?>

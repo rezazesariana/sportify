@@ -6,9 +6,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Yatriiworld - Travel and Tours Booking Template</title>
+    <title>Sportify - Field Booking</title>
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="<?= base_url('template/images/favicon.png') ?>">
+    <link rel="shortcut icon" type="image/x-icon" href="<?= base_url('assets/logo-title.png') ?>">
     <!-- Bootstrap core CSS -->
     <link href="<?= base_url('template/css/bootstrap.min.css') ?>" rel="stylesheet" type="text/css">
     <!--Custom CSS-->
@@ -22,6 +22,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
     <link rel="stylesheet" href="<?= base_url('template/fonts/line-icons.css') ?>" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.10.2/fullcalendar.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.10.2/fullcalendar.min.js"></script>
 </head>
 <body>
 

@@ -3350,7 +3350,7 @@ a.close-list-item {
         text-align: left;
     }
     .dashboard-list-box .button.gray {
-        margin-top: 6px:
+        margin-top: 6px;
     }
 }
 /* ------------------------------------------------------------------- */
@@ -4175,6 +4175,9 @@ h4 span.headline-detail {
     .about-author img {
         width: 70px;
         height: 70px;
+    }
+    .about-author img {
+        object-fit: cover;
     }
     .about-description {
         margin: 2px 0 0 100px;

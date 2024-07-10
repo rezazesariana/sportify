@@ -2,7 +2,7 @@
 <section class="contact-main pt-0 contact1 bg-grey">
     <div class="map mb-10">
         <div style="width: 100%">
-            <iframe height="500" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=+(mangal%20bazar)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+            <iframe height="500" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=+(Jl.%20Raya%20Lembang%20Kav.%208%20-%2015C,%20Bandung)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
         </div>
     </div>
     <div class="container">
@@ -11,14 +11,13 @@
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                     <div class="contact-info">
                         <h3 class="">INFORMATION ABOUT US</h3>
-                        <p class="mb-4">Sagittis posuere id nam quis vestibulum vestibulum a facilisi at elit hendrerit scelerisque sodales nam dis orci.</p>
+                        <p class="mb-4">Tidak perlu sulit untuk mengakses dan menghubungi kami lewat informasi berikut</p>
                         <div class="info-item d-flex align-items-center bg-white mb-3">
                             <div class="info-icon">
                                 <i class="fa fa-map-marker"></i>
                             </div>
                             <div class="info-content pl-4">
-                                <p class="m-0">445 Mount Eden Road, Mt Eden</p>
-                                <p class="m-0">Basundhara Chakrapath</p>
+                                <p class="m-0"> Jl. Raya Lembang Kav. 8 - 15C, Bandung</p>
                             </div>
                         </div>
                         <div class="info-item d-flex align-items-center bg-white mb-3">
@@ -26,8 +25,8 @@
                                 <i class="fa fa-phone"></i>
                             </div>
                             <div class="info-content pl-4">
-                                <p class="m-0">977-444-666-888</p>
-                                <p class="m-0">977-444-222-000</p>
+                                <p class="m-0">022- 4203368</p>
+                                <p class="m-0">+62 877-2289-3298</p>
                             </div>
                         </div>
                         <div class="info-item d-flex align-items-center bg-white mb-3">
@@ -35,8 +34,8 @@
                                 <i class="fa fa-envelope"></i>
                             </div>
                             <div class="info-content pl-4">
-                                <p class="m-0">info@Yatriiworld.com</p>
-                                <p class="m-0">help@Yatriiworld.com</p>
+                                <p class="m-0">booking@sportify.co.id</p>
+                                <p class="m-0">info@sportify.co.id</p>
                             </div>
                         </div>
                     </div>
@@ -44,7 +43,7 @@
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                     <div id="contact-form1" class="contact-form">
                         <h3 class="">Keep in Touch</h3>
-                        <p class="mb-4">Fundpress site thoughtfully designed for real humans which means the best user experience for your entire community.</p>
+                        <p class="mb-4">Buat akun di Sportify dan menjadi membership kami agar mendapatkan info terbaik setiap bulannya dan dapatkan promo yang menakjubkan!</p>
                         
                         <div id="contactform-error-msg"></div>
 

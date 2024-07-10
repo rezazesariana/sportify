@@ -40,7 +40,7 @@
                 </div>
             </form>
             <div class="form-group mb-0 form-checkbox mt-3">
-                <input type="checkbox"> By clicking this, you are agree to to<a href="#" class=""> our terms of use</a> and <a href="#" class="">privacy policy</a> including the use of cookies
+                <input type="checkbox"> By clicking this, you are agree to to<a href="/terms-and-conditions" class=""> our terms of use</a> and <a href="/privacy-policy" class="">privacy policy</a> including the use of cookies
             </div>
         </div>
         <div class="sign-up mt-3">

@@ -63,7 +63,7 @@
                                             </div>
                                         </div>
 
-                                        <input type="checkbox"> By continuing, you agree to the <a href="#">Terms and Conditions.</a>
+                                        <input type="checkbox"> By continuing, you agree to the <a href="#">Terms and Conditions.</a><br>
                                         <button type="submit" class="shop-btn mt-2 nir-btn">CONFIRM BOOKING</button>
                                     </form>
                                 </div>

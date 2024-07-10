@@ -3634,9 +3634,11 @@ section.about-detail {
   .about-us .about-image-box .about-image-desti {
     margin-bottom: 0; }
   .about-us .about-image-box .about-image-main {
-    margin-top: 30px; }
+    margin-top: 30px;
+    object-fit: cover; }
     .about-us .about-image-box .about-image-main .col-lg-6 {
-      margin-top: 0 !important; }
+      margin-top: 0 !important;
+      object-fit: cover; }
   .about-us .about-image-box .about-content {
     margin-bottom: 15px;
     width: 100% !important; }
@@ -3814,7 +3816,8 @@ section.call-to-action.maincounter {
     transition: all ease-in-out 0.5s; }
     .our-team .team-image img {
       transition: all ease-in-out 0.5s;
-      width: 100%; }
+      width: 100%;
+      object-fit: cover; }
     .our-team .team-image:hover img {
       transition: all ease-in-out 0.5s;
       transform: scale(1.1); }

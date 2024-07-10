@@ -82,15 +82,17 @@ class Booking extends BaseController
         ];
         $model->save($data);
 
+        $booking_id = $model->insertID();
+
         $paymentModel = new PaymentModel();
         $dataPayment = [
-            'booking_id' => $model->insertID(),
+            'booking_id' => $booking_id,
             'payment_method_id' => $payment_method_id,
             'amount' => $amount,
             'tanggal' => $payment_date,
         ];
         $paymentModel->save($dataPayment);
 
-        return redirect()->to('/booking-success/' . $model->insertID());
+        return redirect()->to('/booking-success/' . $booking_id);
     }
 }

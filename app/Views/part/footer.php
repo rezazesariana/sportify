@@ -7,7 +7,7 @@
                     <div class="footer-about">
                         <img src="<?= base_url('assets/logo-sportify-white.png') ?>" alt="" height="100px">
                         <p class="mt-3 mb-3">
-                            In ut odio libero, at vulputate urna. Nulla tristique mi a massa convallis cursus. Nulla eu mi magna
+                            Pesan lapangan olahraga berkualitas dengan mudah dan cepat secara online!
                         </p>
                         <div class="social-links">
                             <ul>  
@@ -36,17 +36,18 @@
                     <div class="footer-listing-main d-lg-flex align-items-center justify-content-between mt-4 text-center">
                         <div class="footer-listing white">
                             <i class="fa fa-map-marked white mb-1"></i>
-                            123 Collins Street, sydney, <br>Australia 750
+                            Alamat: Jl. Raya Lembang
+                            <p>Kav. 8 - 15C, Bandung</p>
                         </div>
                         <div class="footer-listing">
                             <i class="fa fa-fax white mb-1"></i>
-                            <p class="white mb-0">Toll Free: +47-252-254-2542</p>
-                            <p class="white mb-0">Fax: +47-252-254-2542</p>
+                            <p class="white mb-0">Toll Free: 022- 4203368</p>
+                            <p class="white mb-0">Fax: +62 877-2289-3298</p>
                         </div>
                         <div class="footer-listing">
                             <i class="fa fa-headphones white mb-1"></i>
-                            <p class="white mb-0">Support@Yatriiworld.com</p>
-                            <p class="white mb-0">info@Yatriiworld.com</p>
+                            <p class="white mb-0">booking@sportify.co.id</p>
+                            <p class="white mb-0">info@Ysportify.co.id</p>
                         </div>
                     </div>
                 </div>
@@ -57,7 +58,7 @@
         <div class="container">
             <div class="copyright-inner">
                 <div class="copyright-text text-center">
-                    <p class="m-0 white">2020 Yatriiworld. All rights reserved.</p>
+                    <p class="m-0 white">2020 Sportify. All rights reserved.</p>
                 </div>
             </div>    
         </div>
@@ -73,7 +74,6 @@
     <!-- Back to top ends -->
 
     <!-- *Scripts* -->
-    <script src="<?= base_url('template/js/jquery-3.5.1.min.js') ?>"></script>
     <script src="<?= base_url('template/js/bootstrap.min.js') ?>"></script>
     <script src="<?= base_url('template/js/particles.js') ?>"></script>
     <script src="<?= base_url('template/js/particlerun.js') ?>"></script>
