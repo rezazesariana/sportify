@@ -61,7 +61,7 @@
 
                         <div class="register-login">
                             <?php if (session()->get('logged_in')): ?>
-                                <a href="/logout" class="mr-2"><i class="icon-logout mr-1"></i> Logout</a>
+                                <a href="/profile" class="mr-2"><i class="icon-user mr-1"></i> Profile</a>
                             <?php else: ?>
                                 <a href="/register" class="mr-2"><i class="icon-user mr-1"></i> Register</a>
                                 <a href="/login"><i class="icon-login mr-1"></i> Login</a>

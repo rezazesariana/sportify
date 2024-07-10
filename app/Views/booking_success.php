@@ -74,7 +74,7 @@
                         <div class="booking-border mb-4 bg-lgrey p-4">
                             <h4 class="border-b pb-2 mb-2">View Booking List</h4>
                             <p>This is the third time I've used Travelo Website and telling you the truth their services are always reliable and it ony takes few minutes to plan and finalize.</p>
-                            <a href="#">https://www.travel.com/booking-details</a>
+                            <a href="/booking-history">Booking List</a>
                         </div>
                         <div class="booking-border d-flex">
                             <a href="#" class="nir-btn mr-4"><i class="fa fa-print"></i> Print</a>

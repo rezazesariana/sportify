@@ -27,7 +27,7 @@ class Login extends Controller
             $verify_pass = $password == $pass;
             if ($verify_pass) {
                 $ses_data = [
-                    'user_id'       => $data['user_id'],
+                    'user_id' => $data['user_id'],
                     'email' => $data['email'],
                     'logged_in' => TRUE
                 ];

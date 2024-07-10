@@ -37,3 +37,6 @@ $routes->get('/terms-and-conditions', 'TermsConditions::index');
 $routes->get('/login', 'Login::index');
 $routes->post('/login/authenticate', 'Login::authenticate');
 $routes->get('/logout', 'Login::logout');
+
+$routes->get('/booking-history', 'BookingHistory::index');
+$routes->get('/profile', 'Profile::index');

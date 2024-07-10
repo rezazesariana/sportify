@@ -758,8 +758,8 @@ input#submit:hover {
     display: block;
     top: 50%;
     left: 50%;
-    width: 400px;
-    height: 300px;
+    width: 200px;
+    height: 150px;
     margin: 0 auto;
     background: url(../images/loader.gif);
     background-size: cover;
@@ -5275,7 +5275,7 @@ table.shop_table.rt-checkout-review-order-table {
 /* ======================================== */
 footer {
   width: 100%;
-  background-color: #162241;
+  background-color: #5c647b;
   overflow: hidden;
   position: relative;
   background-size: cover;
