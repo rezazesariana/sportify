@@ -7,7 +7,6 @@ use App\Controllers\Shop;
 /**
  * @var RouteCollection $routes
  */
-$routes->post('/register', 'Register::save');
 $routes->get('/', 'Home::index');
 
 $routes->get('/shop', 'Shop::index');
@@ -40,3 +39,5 @@ $routes->get('/logout', 'Login::logout');
 
 $routes->get('/booking-history', 'BookingHistory::index');
 $routes->get('/profile', 'Profile::index');
+$routes->post('/profile/save', 'Profile::save');
+$routes->post('/profile/savePassword', 'Profile::savePassword');
