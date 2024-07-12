@@ -130,7 +130,7 @@
                 <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                     <div class="team-list">
                         <div class="team-image">
-                            <img src="<?= base_url('template/images/team/img4.jpg') ?>" alt="team">
+                            <img src="<?= base_url('assets/Cahya.jpg') ?>" alt="team">
                         </div>
                         <div class="team-content1 text-center">
                             <h4 class="mb-0 pink">Cahya Abdan S</h4>
@@ -145,7 +145,7 @@
                 <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                     <div class="team-list">
                         <div class="team-image">
-                            <img src="<?= base_url('template/images/team/img3.jpg') ?>" alt="team">
+                            <img src="<?= base_url('assets/Rakha.jpg') ?>" alt="team">
                         </div>
                         <div class="team-content1 text-center">
                             <h4 class="mb-0 pink">Mochammad Rakha</h4>
