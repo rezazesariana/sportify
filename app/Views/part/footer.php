@@ -41,13 +41,13 @@
                         </div>
                         <div class="footer-listing">
                             <i class="fa fa-fax white mb-1"></i>
-                            <p class="white mb-0">Toll Free: 022- 4203368</p>
-                            <p class="white mb-0">Fax: +62 877-2289-3298</p>
+                            <p class="white mb-0">Telepon: 022- 4203368</p>
+                            <p class="white mb-0">Whatsapp: +62 877-2289-3298</p>
                         </div>
                         <div class="footer-listing">
-                            <i class="fa fa-headphones white mb-1"></i>
+                            <i class="fa fa-envelope white mb-1"></i>
                             <p class="white mb-0">booking@sportify.co.id</p>
-                            <p class="white mb-0">info@Ysportify.co.id</p>
+                            <p class="white mb-0">info@sportify.co.id</p>
                         </div>
                     </div>
                 </div>

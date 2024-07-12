@@ -3,10 +3,10 @@
     <div class="breadcrumb-outer pt-10">
         <div class="container">
             <div class="breadcrumb-content d-md-flex align-items-center pt-10">
-                <h2 class="mb-0">Shop</h2>
+                <h2 class="mb-2">Shop</h2>
                 <nav aria-label="breadcrumb">
                     <ul class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item"><a href="http://localhost:8080/">Home</a></li>
                         <li class="breadcrumb-item active" aria-current="page">Shop</li>
                     </ul>
                 </nav>

@@ -3,10 +3,10 @@
     <div class="breadcrumb-outer pt-10">
         <div class="container">
             <div class="breadcrumb-content d-md-flex align-items-center pt-10">
-                <h2 class="mb-0">About Us</h2>
+                <h2 class="mb-2">About Us</h2>
                 <nav aria-label="breadcrumb">
                     <ul class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item"><a href="http://localhost:8080/">Home</a></li>
                         <li class="breadcrumb-item active" aria-current="page">About Us</li>
                     </ul>
                 </nav>
@@ -62,15 +62,11 @@
                 <div class="col-lg-6 col-sm-12">
                     <div class="about-content">
                         <h2 class="">Why Choose Us</h2>
-                        <p class="mb-2">Sportify platform yang menyediakan solusi lengkap untuk penyewaan lapangan olahraga dengan kemudahan, kejelasan informasi, dan pilihan yang luas. Dengan antarmuka yang intuitif, Anda dapat dengan cepat menemukan dan memesan lapangan sesuai kebutuhan, tanpa ribet. <br>Dengan Sportify, Anda dapat mengoptimalkan pengalaman berolahraga dengan memastikan bahwa setiap sesi latihan atau pertandingan berlangsung lancar dan sesuai dengan rencana.</p>
+                        <p class="mb-2">Sportify platform yang menyediakan solusi lengkap untuk penyewaan lapangan olahraga dengan kemudahan, kejelasan informasi, dan pilihan yang luas. Dengan antarmuka yang intuitif, Anda dapat dengan cepat menemukan dan memesan lapangan sesuai kebutuhan, tanpa ribet. 
+                        </p><br>Dengan Sportify, Anda dapat mengoptimalkan pengalaman berolahraga dengan memastikan bahwa setiap sesi latihan atau pertandingan berlangsung lancar dan sesuai dengan rencana.</p>
                         <div class="about-featured mb-0">
                             <ul>
-                                <li>Safety Travel System</li>
-                                <li>Budget-Friendly Tour</li>
-                                <li>Expert Trip Planning</li>
-                                <li>Fast Communication</li>
-                                <li>Right Solution & Guide</li>
-                                <li>24/7 Customer Support</li>
+                                
                             </ul>
                         </div>
                     </div>
@@ -108,8 +104,8 @@
                             <img src="<?= base_url('assets/dini.jpg') ?>" alt="team" height="400px">
                         </div>
                         <div class="team-content1 text-center">
-                            <h4 class="mb-0 pink">Salmon Thuir</h4>
-                            <p class="mb-0">Cheif Officer</p>
+                            <h4 class="mb-0 pink">Dini Nurmaulani</h4>
+                            <p class="mb-0">Chief Executive Officer</p>
                             
                         </div>
                         
@@ -122,8 +118,8 @@
                             <img src="<?= base_url('assets/reza.jpeg') ?>" alt="team" height="400px">
                         </div>
                         <div class="team-content1 text-center">
-                            <h4 class="mb-0 pink">Horke Pels</h4>
-                            <p class="mb-0">Head Chef</p>
+                            <h4 class="mb-0 pink">Reza Zesariana R</h4>
+                            <p class="mb-0">Chief Technology Officer</p>
                             
                         </div>
                         
@@ -137,8 +133,8 @@
                             <img src="<?= base_url('template/images/team/img4.jpg') ?>" alt="team">
                         </div>
                         <div class="team-content1 text-center">
-                            <h4 class="mb-0 pink">Solden kalos</h4>
-                            <p class="mb-0">Supervisor</p>
+                            <h4 class="mb-0 pink">Cahya Abdan S</h4>
+                            <p class="mb-0">Chief Project Officer</p>
                             
                         </div>
                         
@@ -152,8 +148,8 @@
                             <img src="<?= base_url('template/images/team/img3.jpg') ?>" alt="team">
                         </div>
                         <div class="team-content1 text-center">
-                            <h4 class="mb-0 pink">Nelson Bam</h4>
-                            <p class="mb-0">Quality Assurance</p>
+                            <h4 class="mb-0 pink">Mochammad Rakha</h4>
+                            <p class="mb-0">Chief Financial Officer</p>
                             
                         </div>
                         
@@ -180,7 +176,7 @@
 
                 <div class="col-lg-4 col-md-4 col-sm-12 mb-4">
                     <div class="counter-item bg-lgrey">
-                        <i class="fa fa-plane mb-1 white bg-navy"></i>
+                        <i class="fa fa-book mb-1 white bg-navy"></i>
                         <h3 class="value mb-0 navy"><?= $totalBookings ?></h3>
                         <h4 class="m-0">Bookings</h4>
                     </div>    
