@@ -8,6 +8,7 @@ use App\Models\ReviewModel;
 use App\Models\FieldCategoryModel;
 use App\Models\BookingModel;
 use App\Models\UserModel;
+use App\Models\FacilityModel;
 
 class Shop extends BaseController
 {
@@ -87,6 +88,7 @@ class Shop extends BaseController
         $reviewModel = new ReviewModel();
         $bookingModel = new BookingModel();
         $userModel = new UserModel();
+        $facilityModel = new FacilityModel();
 
         $field = $fieldModel->where('field_id', $field_id)->first();
 
@@ -123,11 +125,13 @@ class Shop extends BaseController
         $canReview = $hasBooked && !$hasReviewed;
 
         $bookings = $bookingModel->where(['field_id' => $field_id])->findAll();
+        $facilities = $facilityModel->where('field_id', $field['field_id'])->findAll();
 
         $data = [
             'field' => $field,
             'canReview' => $canReview,
             'bookings' => $bookings,
+            'facilities' => $facilities,
         ];
 
         echo view('part/header.php');

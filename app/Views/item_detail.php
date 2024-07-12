@@ -103,22 +103,12 @@
                                         <thead>
                                         </thead>
                                         <tbody>
-                                            <tr>
-                                                <td class="title">Amendments</td>
-                                                <td>Unlimited Kilometres for ALL car groups</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="title">Theft Protection</td>
-                                                <td>Local Taxes</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="title">Direct-dial phone</td>
-                                                <td>Road Fee</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="title">Collision Damage Waiver</td>
-                                                <td>First Additional Driver</td>
-                                            </tr>
+                                            <?php foreach($facilities as $facility): ?>
+                                                <tr>
+                                                    <td class="title"><?= $facility['nama_fasilitas'] ?></td>
+                                                    <td><?= $facility['keterangan'] ?></td>
+                                                </tr>    
+                                            <?php endforeach; ?>
                                         </tbody>
                                     </table>
                                 </div>

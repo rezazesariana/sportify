@@ -152,7 +152,7 @@
                                                 <p class="mb-0"><i class="fa fa-map-marker mr-1 ml-3"></i> <?= $field['nama'] ?></p>
                                             </div>
                                             <div class="trend-last-main">
-                                                <p class="mb-0 trend-para">A wonderful little cottage right on the seashore - perfect for exploring.</p>
+                                                <p class="mb-0 trend-para"><?= $field['deskripsi_pendek'] ?></p>
                                             </div>
                                         </div>
                                     </div>

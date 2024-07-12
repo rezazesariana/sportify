@@ -563,7 +563,9 @@ iframe {
   background-position: top;
   background-size: cover;
   background-attachment: fixed;
-  position: relative; }
+  position: relative;
+  background: #5c647b !important;
+ }
   .breadcrumb-main .breadcrumb-outer {
     background: transparent;
     position: relative;

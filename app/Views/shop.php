@@ -69,7 +69,7 @@
                                             </div>
                                             <span class="ml-2"><?= $item['total_reviews'] ?> <?= $item['total_reviews'] > 1 ? 'Reviews' : 'Review' ?></span>
                                         </div>
-                                        <h4 class="bordernone p-0 mb-1"><a href="#"><?= $item['nama'] ?></a></h4>
+                                        <h4 class="bordernone p-0 mb-1"><a href="/shop/<?= $item['field_id'] ?>"><?= $item['nama'] ?></a></h4>
                                         <p class="price pink mb-1 font-weight-bold"><?= format_rupiah($item['harga']) ?></p>
                                         <div class="cart-btn">
                                             <a href="/shop/<?= $item['field_id'] ?>" class="nir-btn-black"><i class="icon-basket-loaded mr-2"></i>View Detail</a>

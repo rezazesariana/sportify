@@ -9,7 +9,7 @@ class FieldModel extends Model
     protected $table = 'field';
     protected $primaryKey = 'field_id';
     protected $returnType = 'array';
-    protected $allowedFields = ['nama', 'lokasi', 'kategori_id', 'fasilitas', 'harga', 'deskripsi'];
+    protected $allowedFields = ['nama', 'lokasi', 'kategori_id', 'harga', 'deskripsi', 'deskripsi_pendek'];
 
     public function getFields($limit, $offset, $sortColumn = 'field_id', $sortOrder = 'ASC', $kategori_id = null)
     {
