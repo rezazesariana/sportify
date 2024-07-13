@@ -39,6 +39,7 @@
                         <div class="nav-links">
                             <a href="/profile">Profile</a>
                             <a href="/booking-history" class="active">Booking History</a>
+                            <a href="/deleteAccount">Delete Account</a>
                             <a href="/logout">Logout</a>
                         </div>
                         <!-- Responsive Navigation Trigger -->

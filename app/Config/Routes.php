@@ -41,3 +41,4 @@ $routes->get('/booking-history', 'BookingHistory::index');
 $routes->get('/profile', 'Profile::index');
 $routes->post('/profile/save', 'Profile::save');
 $routes->post('/profile/savePassword', 'Profile::savePassword');
+$routes->get('/deleteAccount', 'Profile::deleteAccount');

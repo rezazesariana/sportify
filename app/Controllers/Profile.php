@@ -95,4 +95,17 @@ class Profile extends BaseController
             echo view('part/footer.php');
         }    
     }
+
+    public function deleteAccount()
+    {
+        $session = session();
+        $userModel = new UserModel();
+
+        $userModel->delete(session()->get('user_id'));
+
+        
+        $session->destroy();
+        
+        return redirect()->to('/');    
+    }
 }
