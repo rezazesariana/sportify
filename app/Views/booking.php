@@ -104,7 +104,7 @@
                                 <p class="mb-0 pink"><i class="fa fa-map-marker mr-1 ml-3"></i><?= $field['lokasi'] ?></p>
                             </div>
                             <div class="trend-last-main">
-                                <p class="mb-0 trend-para">A wonderful little cottage right on the seashore - perfect for exploring.</p>
+                                <p class="mb-0 trend-para"><?= $field['deskripsi_pendek'] ?></p>
                                 <div class="trend-last d-flex align-items-center justify-content-between bg-navy">
                                     <div class="trend-price">
                                         <p class="price white mb-0"><span><?= format_rupiah($field['harga']) ?></span></p>

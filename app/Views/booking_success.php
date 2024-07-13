@@ -104,7 +104,7 @@
                                 <ul class="featured-list-sm">
                                     <li class="border-b pb-2 mb-2">
                                         <h6 class="mb-0">No Booking Charges</h6>
-                                        We don't charge you an extra fee for booking a hotel room with us
+                                        We don't charge you an extra fee for booking a field with us
                                     </li>
                                     <li class="border-b pb-2 mb-2">
                                         <h6 class="mb-0">No Cancellation Sees</h6>

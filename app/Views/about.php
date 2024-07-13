@@ -94,7 +94,7 @@
     <div class="container">
         <div class="section-title text-center mb-5 pb-2 w-50 mx-auto">
             <h2 class="m-0">Our <span>Team</span></h2>
-            <p class="mb-0">Berikut merupakan orang-orang terbaik di balik kesuksesan Sportify</p>
+            <p class="mb-0">Berikut merupakan orang-orang hebat di balik kesuksesan Sportify</p>
         </div>  
         <div class="team-main">
             <div class="row shop-slider">

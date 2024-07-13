@@ -53,7 +53,7 @@
                         <div class="navbar-collapse1 d-flex align-items-center" id="bs-example-navbar-collapse-1">
                             <ul class="nav navbar-nav" id="responsive-menu">
                                 <li><a href="/">Home</i></a></li>
-                                <li><a href="/shop">Shop</a></li>
+                                <li><a href="/shop">Venue</a></li>
                                 <li><a href="/about">About</a></li>
                                 <li><a href="/contact">Contact</a></li>
                             </ul>

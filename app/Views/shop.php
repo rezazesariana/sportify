@@ -3,11 +3,11 @@
     <div class="breadcrumb-outer pt-10">
         <div class="container">
             <div class="breadcrumb-content d-md-flex align-items-center pt-10">
-                <h2 class="mb-2">Shop</h2>
+                <h2 class="mb-2">Venue</h2>
                 <nav aria-label="breadcrumb">
                     <ul class="breadcrumb">
                         <li class="breadcrumb-item"><a href="http://localhost:8080/">Home</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">Shop</li>
+                        <li class="breadcrumb-item active" aria-current="page">Venue</li>
                     </ul>
                 </nav>
             </div>
@@ -72,7 +72,7 @@
                                         <h4 class="bordernone p-0 mb-1"><a href="/shop/<?= $item['field_id'] ?>"><?= $item['nama'] ?></a></h4>
                                         <p class="price pink mb-1 font-weight-bold"><?= format_rupiah($item['harga']) ?></p>
                                         <div class="cart-btn">
-                                            <a href="/shop/<?= $item['field_id'] ?>" class="nir-btn-black"><i class="icon-basket-loaded mr-2"></i>View Detail</a>
+                                            <a href="/shop/<?= $item['field_id'] ?>" class="nir-btn-black">View Detail</a>
                                         </div>
                                     </div>
                                 </div>
