@@ -32,7 +32,12 @@ class Login extends Controller
                     'logged_in' => TRUE
                 ];
                 $session->set($ses_data);
-                return redirect()->to('/');
+                if ($data['is_admin']) {
+                    return redirect()->to('/admin');    
+                } else {
+                    return redirect()->to('/');
+                }
+                
             } else {
                 $session->setFlashdata('msg', 'Wrong Password');
                 return redirect()->to('/login');

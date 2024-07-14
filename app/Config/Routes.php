@@ -42,3 +42,17 @@ $routes->get('/profile', 'Profile::index');
 $routes->post('/profile/save', 'Profile::save');
 $routes->post('/profile/savePassword', 'Profile::savePassword');
 $routes->get('/deleteAccount', 'Profile::deleteAccount');
+
+$routes->get('/admin', 'Admin::index');
+
+$routes->get('/admin/lapangan', 'Lapangan::index');
+$routes->post('/admin/lapangan/create', 'Lapangan::create');
+$routes->get('/admin/lapangan/add', 'Lapangan::tambah');
+$routes->add('/admin/lapangan/(:segment)/edit', 'Lapangan::edit/$1');
+$routes->get('/admin/lapangan/(:segment)/delete', 'Lapangan::delete/$1');
+
+$routes->get('/admin/user', 'User::index');
+$routes->post('/admin/user/create', 'User::create');
+$routes->get('/admin/user/add', 'User::tambah');
+$routes->add('/admin/user/(:segment)/edit', 'User::edit/$1');
+$routes->get('/admin/user/(:segment)/delete', 'User::delete/$1');

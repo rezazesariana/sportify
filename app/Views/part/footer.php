@@ -58,7 +58,7 @@
         <div class="container">
             <div class="copyright-inner">
                 <div class="copyright-text text-center">
-                    <p class="m-0 white">2020 Sportify. All rights reserved.</p>
+                    <p class="m-0 white">2024 Sportify. All rights reserved.</p>
                 </div>
             </div>    
         </div>
